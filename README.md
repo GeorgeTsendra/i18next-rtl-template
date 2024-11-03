@@ -50,7 +50,7 @@ Runs the linter to ensure code consistency and quality.
   - `components/` - React components.
   - `assets/` - Static assets like images and icons.
   - `i18n/` - Configuration for `i18next` and translation files.
-  - `styles/` - Tailwind CSS setup and global styles.
+  - `styles/` - Tailwind CSS setup and global styles. (TODO)
 
 ## Learn More
 
