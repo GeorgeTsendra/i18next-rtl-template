@@ -1,3 +1,30 @@
 {
-  "search": "يبحث"
+  "search": "بحث",
+  "table-filters": {
+    "title": "معلومات المبيعات",
+    "customer": {
+      "label": "العميل",
+      "placeholder": "أدخل اسم العميل"
+    },
+    "invoice": {
+      "label": "رقم الفاتورة",
+      "placeholder": "أدخل رقم الفاتورة"
+    },
+    "start-date": {
+      "label": "تاريخ البدء",
+      "placeholder": "تاريخ البدء"
+    },
+    "end-date": {
+      "label": "تاريخ الانتهاء",
+      "placeholder": "تاريخ الانتهاء"
+    }
+  },
+  "table-columns": {
+    "invoice-id": "رقم الفاتورة",
+    "date": "التاريخ",
+    "customer-name": "العميل",
+    "paid-amount": "المبلغ الإجمالي",
+    "payable-amount": "المبلغ المستحق",
+    "due": "المبلغ المتبقي"
+  }
 }

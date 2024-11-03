@@ -6,10 +6,10 @@ const SearchTextInput = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative h-12 w-[40%] min-w-40 shadow-xl">
+    <div className="relative h-12 w-[40%] min-w-40">
       <input
         placeholder={t("search")}
-        className="flex w-[100%] h-[100%] ltr:pl-12 rtl:pr-12 rounded-[3px]"
+        className="flex w-[100%] h-[100%] ltr:pl-12 rtl:pr-12 rounded-[3px]  border border-[1px] border-[#cecece]"
       />
       <div className="absolute top-3 ltr:left-3 rtl:right-3">
         <SearchIcon />

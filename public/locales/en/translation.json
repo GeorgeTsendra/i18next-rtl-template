@@ -1,3 +1,30 @@
 {
-  "search": "Search"
+  "search": "Search",
+  "table-filters": {
+    "title": "Sales Information",
+    "customer": {
+      "label": "Customer",
+      "placeholder": "Enter Costumer Name"
+    },
+    "invoice": {
+      "label": "Invoice ID",
+      "placeholder": "Enter Invoice ID"
+    },
+    "start-date": {
+      "label": "Start Date",
+      "placeholder": "Start Date"
+    },
+    "end-date": {
+      "label": "End Date",
+      "placeholder": "End Date"
+    }
+  },
+  "table-columns": {
+    "invoice-id": "Invoice ID",
+    "date": "Date",
+    "customer-name": "Customer",
+    "paid-amount": "Total Amount",
+    "payable-amount": "Payable Amount",
+    "due": "Due"
+  }
 }

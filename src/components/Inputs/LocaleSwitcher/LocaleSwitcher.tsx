@@ -5,7 +5,7 @@ const LocaleSwitcher = () => {
   const { i18n } = useTranslation();
 
   return (
-    <span className="flex bg-white shadow-xl rounded-[3px]">
+    <span className="flex bg-white border border-[1px] border-[#cecece] rounded-[3px]">
       <select
         value={i18n.resolvedLanguage}
         onChange={(e) => i18n.changeLanguage(e.target.value)}
