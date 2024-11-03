@@ -26,5 +26,9 @@
     "paid-amount": "Total Amount",
     "payable-amount": "Payable Amount",
     "due": "Due"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "in-process": "In Process..."
   }
 }
