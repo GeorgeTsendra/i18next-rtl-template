@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import axios from "axios";
+
 import useLocalizeDocumentAttributes from "./i18n/useLocalizeDocumentAttributes";
 import "./i18n/config";
 
@@ -8,6 +11,15 @@ import TableManagementSection from "./components/Layout/TableManagementSection/T
 
 function App() {
   useLocalizeDocumentAttributes();
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:5001/api/invoices")
+      .then((response) => {
+        console.log("response", response.data);
+      })
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
 
   return (
     <main className="flex flex-row h-[100vh]">
