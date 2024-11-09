@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import useLocalizeDocumentAttributes from "./i18n/useLocalizeDocumentAttributes";
 import "./i18n/config";
 

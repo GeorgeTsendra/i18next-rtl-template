@@ -27,6 +27,9 @@
     "payable-amount": "Payable Amount",
     "due": "Due"
   },
+  "table": {
+    "empty-list": "Empty List"
+  },
   "sidebar": {
     "dashboard": "Dashboard",
     "in-process": "In Process..."
