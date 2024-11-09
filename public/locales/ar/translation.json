@@ -27,6 +27,9 @@
     "payable-amount": "المبلغ المستحق",
     "due": "المبلغ المتبقي"
   },
+  "table": {
+    "empty-list": "قائمة فارغة"
+  },
   "sidebar": {
     "dashboard": "لوحة التحكم",
     "in-process": "قيد التنفيذ..."

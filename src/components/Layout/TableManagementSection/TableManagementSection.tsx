@@ -3,6 +3,7 @@ import TableSearchTextInput from "../../Inputs/TableSearchTextInput/TableSearchT
 
 const TableManagementSection = () => {
   const { t } = useTranslation();
+
   return (
     <section className="flex flex-col">
       <h1 className="text-gray-900 font-bold text-xl mb-6">
