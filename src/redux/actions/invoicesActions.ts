@@ -7,7 +7,7 @@ export const getInvoicesList = createAsyncThunk(
     try {
       const { data } = await invoices.getInvoicesList();
       return data;
-    } catch (err: any) {
+    } catch (err: { response: { status: number; message: string } }) {
       return thunkAPI.rejectWithValue(err.response);
     }
   }

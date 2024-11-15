@@ -28,12 +28,9 @@ export const invoicesSlice = createSlice({
         state.invoices = action?.payload;
       }
     );
-    builder.addCase(
-      getInvoicesList.rejected.toString(),
-      (state, action: { payload: any; type: string }) => {
-        state.isLoading = false;
-      }
-    );
+    builder.addCase(getInvoicesList.rejected.toString(), (state) => {
+      state.isLoading = false;
+    });
   },
 });
 

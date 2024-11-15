@@ -9,25 +9,32 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "depcheck": "depcheck"
+    "depcheck": "depcheck",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
     "axios": "1.7.7",
+    "chart.js": "^4.4.6",
     "i18next": "^23.16.4",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^2.6.2",
     "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.1.0",
     "react-redux": "^9.1.2",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.14.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
     "concurrently": "9.1.0",
     "depcheck": "^1.4.7",
+    "eslint": "^9.14.0",
     "eslint-config-react-app": "^7.0.1",
     "tailwind-merge": "^2.5.4",
     "tailwindcss": "3.4.14",
