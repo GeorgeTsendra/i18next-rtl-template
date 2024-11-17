@@ -2,7 +2,9 @@ import { Routes, Route } from "react-router-dom";
 import useLocalizeDocumentAttributes from "./i18n/useLocalizeDocumentAttributes";
 import "./i18n/config";
 
-import Dashboard from "./page/Dashboard";
+import Table from "./pages/Table";
+import Dashboard from "./pages/Dashboard";
+import Layout from "./components/Layout";
 
 function App() {
   useLocalizeDocumentAttributes();
@@ -10,7 +12,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Table />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Route>
       </Routes>
     </>
   );

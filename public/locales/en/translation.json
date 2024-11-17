@@ -32,6 +32,7 @@
   },
   "sidebar": {
     "dashboard": "Dashboard",
+    "table": "Table",
     "in-process": "In Process..."
   }
 }

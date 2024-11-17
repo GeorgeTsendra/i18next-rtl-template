@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import TableSearchTextInput from "../../Inputs/TableSearchTextInput/TableSearchTextInput";
+import SearchTextInput from "../../Inputs/SearchTextInput/SearchTextInput";
 
 const TableManagementSection = () => {
   const { t } = useTranslation();
@@ -9,7 +10,8 @@ const TableManagementSection = () => {
       <h1 className="text-gray-900 font-bold text-xl mb-6">
         {t("table-filters.title")}
       </h1>
-      <div className="flex flex-row justify-between">
+      <SearchTextInput />
+      <div className="flex flex-row justify-between mt-4">
         <TableSearchTextInput
           label={t("table-filters.customer.label")}
           placeholderText={t("table-filters.customer.placeholder")}

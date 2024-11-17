@@ -14,11 +14,16 @@ const Sidebar = () => {
         </span>
         <div className="flex flex-col items-left mt-14">
           <SidebarTab
-            label={t("sidebar.dashboard")}
+            label={t("sidebar.table")}
             Icon={SidebarIcon}
             active
+            path="/"
           />
-          <SidebarTab label={t("sidebar.in-process")} Icon={SettingIcon} />
+          <SidebarTab
+            label={t("sidebar.dashboard")}
+            Icon={SettingIcon}
+            path="/dashboard"
+          />
           <SidebarTab label={t("sidebar.in-process")} Icon={SettingIcon} />
           <SidebarTab label={t("sidebar.in-process")} Icon={SettingIcon} />
         </div>
